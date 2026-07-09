@@ -1242,5 +1242,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C57P3:END-->
+<!--WY-C57P4:BEGIN-->
+<style id="wy-c57p4-css">
+.c57p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c57p4-fabbox.show{display:block;}
+.c57p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c57p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c57p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c57p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c57p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c57p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c57p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c57p4-modal.open{display:flex;}
+.c57p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c57p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c57p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c57p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c57p4-close:hover{background:#e3d5b8;}
+.c57p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c57p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c57p4-tbl th,.c57p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c57p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c57p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c57p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c57p4-tbl b{color:#8b2500;}
+.c57p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c57p4-note b{color:#8b2500;}
+@media(max-width:900px){.c57p4-fabbox{right:14px;}.c57p4-tbl{font-size:11.5px;}.c57p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c57p4-fabbox" id="c57p4Box"><button class="c57p4-btn" id="c57p4Btn" type="button" aria-label="開啟全景總表"><span class="c57p4-ic">▦</span><span class="c57p4-ls"><span class="c57p4-l1">本品 · 述誠品第三十三</span><span class="c57p4-l2">二諦印可 · 理體事相與常住之道</span></span></button></div><div class="c57p4-modal" id="c57p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c57p4-card"><button class="c57p4-close" id="c57p4Close" type="button" aria-label="關閉">×</button><h3>卷五十七·第四品 述誠品第三十三 · 全景總表</h3><p class="sub">卷五十七・第四品｜帝釋讚歎佛印可・三重問答・依法不依人・井繩之喻體用辯證・三寶精密定義道方便門・中觀邏輯總合建築結構</p><table class="c57p4-tbl"><caption>一、三重問答與二諦三層矩陣（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>起承結構</td><td>起因（帝釋讚歎供養般若之福不可計量）→確立（佛以「如是！如是！」印可）→深化（龍樹自設三重問答）→目的（破除大眾微細疑執）</td></tr><tr><td>三維框架</td><td>壹認識論的驗證（帝釋非全智，權威轉移）；貳本體與現象辯證（井繩之喻，破絕對真理與世間載體二律背反）；參分類學救贖論（三寶總攝與十善別說一異無礙）</td></tr><tr><td>二諦三層矩陣</td><td>述誠對話（世俗：天主非全智／勝義：佛印可即一切種智）、三寶存亡（世俗：經卷如井繩有生滅／勝義：般若如井水常住）、善法廣略（世俗：十善為方便／勝義：三寶為究竟）</td></tr><tr><td>帝釋之言的邏輯斷層</td><td>帝釋雖貴為天主，仍屬非一切智人，其言只是世俗諦下的相對意見，故現場有大天疑其「所說或錯」，佛乃出面印可</td></tr><tr><td>依人與依法</td><td>盲從地位威德（依人）真理基礎脆弱；訴諸般若智慧與佛陀視角之最終檢驗（依法）方能建立勝解——真理價值取決於智慧而非地位</td></tr></tbody></table><table class="c57p4-tbl"><caption>二、井繩之喻——體用辯證（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>理體與事相二分</td><td>般若波羅蜜實相（理體）有佛無佛常住不滅；般若經卷（事相）可修習讀誦，有生有滅——二者非一非異，體用二分化解表面矛盾</td></tr><tr><td>井繩之喻</td><td>「井深，綆短不及，便言失井，井實不失」——般若實相如深井之水永不增減，經卷如汲水之綆，長度有限會磨損斷裂，繩斷而人誤稱失井</td></tr><tr><td>因中說果</td><td>將工具（經卷＝因）直接尊稱為目的（實相般若＝果），是佛法語言施設的善巧方便；藉教悟宗，不可因究竟理而輕忽經卷的世俗價值</td></tr><tr><td>二諦相依</td><td>《中論》「若不依俗諦，不得第一義」——必須護持世間經卷（世俗有），切忌偏廢文字載體而墮於惡取空，井水雖永恆，教法之繩仍需人護持</td></tr><tr><td>滅字真義</td><td>水（真理）並未消失，繩（經卷）斷裂或太短——眾生視角站在局限角度無繩無法觸及實相，故名言上稱「般若滅了」，滅指橋樑斷非真理死亡</td></tr></tbody></table><table class="c57p4-tbl"><caption>三、廣略分類與中觀邏輯總合（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三寶精密定義</td><td>佛寶＝佛法所攝無學五眾；法寶＝第三諦（涅槃），除四沙門所攝功德外餘殘辟支佛功德菩薩功德；僧寶＝四向四果學無學五眾——定義彼此銜接滴水不漏</td></tr><tr><td>道方便門</td><td>十善道、四禪、四無量心等定性為「道方便門」，非聖果本身，卻是通向三寶的必經階梯，特意別說正為展示般若功用涵蓋全路徑</td></tr><tr><td>攝用歸體</td><td>般若是系統的總鑰匙，十善與禪定若無般若僅為世間福報，若以般若為導即轉化為成佛資糧——萬善同歸，統攝心量拒絕世出世間割裂</td></tr><tr><td>不一不異</td><td>世俗諦別說（十善四禪名相有異，方便門分別列舉）與第一義諦總攝（離方便無究竟，萬善圓滿即三寶）——猶如手與五指，名相有別實體無二</td></tr><tr><td>三維交攝完整機制</td><td>認識論（佛印可保真確）×本體論（經卷流傳保載體）×分類學（善法統攝保實踐）三圓相交，即是「般若在世則三寶不滅」得以成立的完整保證</td></tr></tbody></table><p class="c57p4-note">述誠品第三十三自帝釋一句讚歎「供養般若福德甚多」起，佛以「如是！如是！」印可，龍樹隨即自設三重問答層層破疑：其一以「依法不依人」釐清帝釋之言何以需要佛印可；其二以<b>井繩之喻</b>——「井深，綆短不及，便言失井，井實不失」——化解般若實相不生不滅卻又說「在世則三寶不滅」的二律背反；其三以三寶精密定義與「道方便門」說明十善四禪別說非贅餘，而是般若功用滴水不漏的全路徑展示。終以認識論、本體論、分類學三圓相交，收束於「即俗而真，真俗不二」的中道實踐——般若雖如虛空無相，卻唯有透過教法繩綆與善法階梯，方能在世間常住不滅。</p></div></div>
+<script id="wy-c57p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c57p4Btn"),BOX=document.getElementById("c57p4Box"),MODAL=document.getElementById("c57p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c57p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C57P4:END-->
 </body>
 </html>
