@@ -1136,5 +1136,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C57P1:END-->
+<!--WY-C57P2:BEGIN-->
+<style id="wy-c57p2-css">
+.c57p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c57p2-fabbox.show{display:block;}
+.c57p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c57p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c57p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c57p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c57p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c57p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c57p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c57p2-modal.open{display:flex;}
+.c57p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c57p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c57p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c57p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c57p2-close:hover{background:#e3d5b8;}
+.c57p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c57p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c57p2-tbl th,.c57p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c57p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c57p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c57p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c57p2-tbl b{color:#8b2500;}
+.c57p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c57p2-note b{color:#8b2500;}
+@media(max-width:900px){.c57p2-fabbox{right:14px;}.c57p2-tbl{font-size:11.5px;}.c57p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c57p2-fabbox" id="c57p2Box"><button class="c57p2-btn" id="c57p2Btn" type="button" aria-label="開啟全景總表"><span class="c57p2-ic">▦</span><span class="c57p2-ls"><span class="c57p2-l1">本品 · 校量舍利品</span><span class="c57p2-l2">舍利校量 · 信慧二根與入理三階</span></span></button></div><div class="c57p2-modal" id="c57p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c57p2-card"><button class="c57p2-close" id="c57p2Close" type="button" aria-label="關閉">×</button><h3>卷五十七·第二品 校量舍利品 · 全景總表</h3><p class="sub">卷五十七・第二品｜般若舍利校量・中觀三矩陣・惡取空與實有執歸謬・盲者不識金寶喻・不壞信無疑決了三階・量器與法水・空性為三乘母</p><table class="c57p2-tbl"><caption>一、校量密碼與中觀三矩陣（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>兩個校量問題</td><td>物質校量（書寫供養般若 vs 供養舍利何者福多）與群體校量（閻浮提中信佛法僧不壞、無疑、決了者幾何）——層層遞進的教學陷阱，非真比較題</td></tr><tr><td>佛陀不定答·反問答</td><td>佛不直答，反問「佛從何道學得一切種智」，令釋提桓因自答「佛從般若中學」——四事答中之反問答，因「功德無定性，隨人心故」不得一定答</td></tr><tr><td>經論三輪呼應</td><td>經文每輪提問（般若vs舍利／閻浮提信寡／得道果者寡），論文即對應展開一輪疏解（信慧二根／智人少故／佛眼觀十方），結構嚴整</td></tr><tr><td>中觀三大分析矩陣</td><td>①緣起無自性（破外相執，立動態功德觀）②不墮二邊（遮常斷，立業果本體）③三乘一味（法無自性消法門壁壘）——由本體經倫理至教制層層展開</td></tr><tr><td>辯證之階總圖</td><td>[A]凡夫現象執迷（盲求實有二邊死局）→[B]中觀本體引擎（般若空性立中道業果）→[C]認知次第升級（信無疑決了）→[D]三乘一味圓融（隨分受用同證菩提）</td></tr></tbody></table><table class="c57p2-tbl"><caption>二、中觀本體引擎——般若生五度與二邊歸謬（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>信根慧根兩種取向</td><td>信根多者供養舍利（重佛身可禮拜，易落相執）；慧根多者供養般若（重義理可決擇，易落空執）——功德的湧現本質是能緣之心與所緣空性交會之結果</td></tr><tr><td>般若生五度</td><td>「無方便智慧布施迴向，不名檀波羅蜜」——十八空即智慧本身，智慧因緣故生四念處乃至一切種智，般若是將有限福德質變為無限功德之催化劑</td></tr><tr><td>惡取空的虛無崩塌</td><td>若誤解一切法空為絕對的無，則否定因果、道德失效——修行建築失去地基，此比執有更危險，是為「惡取空」</td></tr><tr><td>實有執的邏輯死局</td><td>若眾生是常則如虛空無死者，持戒失去意義；若眾生無常則神隨身滅無後世罪福，因果鏈條斷裂——常斷二見皆使因果失去邏輯依據</td></tr><tr><td>中道通達</td><td>不墮有無二邊，用中道通達布施持戒，故有剎利大姓乃至諸佛；此即《中論·觀四諦品》「以有空義故，一切法得成」之修行公式化</td></tr></tbody></table><table class="c57p2-tbl"><caption>三、認知次第升級與三乘一味圓融（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>盲者不識金寶喻</td><td>世人非不貪福，而是「認知盲區」——般若無相，在凡夫感知系統中呈現為無或無價值，非般若不存在而是凡夫無相應認知器官</td></tr><tr><td>入理三階</td><td>不壞信（堅固淨信）→無疑（行證消疑，如渡水在水中）→決了（智慧究竟，如出彼岸）；三分聖戒力／四分力／正見分力層層對應八正道，亦配見諦道／思惟道／無學道</td></tr><tr><td>佛眼觀十方</td><td>「無量阿僧祇眾生發心行菩薩道，遠離般若方便力故，若一若二住阿鞞跋致地，多墮聲聞辟支佛地」——菩薩道成敗關鍵不在發心而在得般若方便力</td></tr><tr><td>量器與法水喻</td><td>須陀洹如兔子，心量小，僅取般若破人我執證初果；大菩薩如大象，心量大，全盤受用般若破法我執證一切種智——同一法水，不同量器</td></tr><tr><td>空性為三乘之母</td><td>聲聞依空性破人我執，辟支佛依空性觀因緣生滅，菩薩依空性破法我執——法無自性打破法門專利權，般若是三乘聖者共依之本源，非獨大乘專屬</td></tr></tbody></table><p class="c57p2-note">校量舍利品以釋提桓因「書寫供養般若與供養舍利何者福多」之問破題，龍樹以「反問答」導出般若為能生、舍利為所生的本末關係，再以中觀三大矩陣（緣起無自性／不墮二邊／三乘一味）層層拆解。<b>盲者不識金寶，非金寶不存在，而是缺相應的認知器官</b>——閻浮提人不供養般若，根源是認知盲區而非動機不足，須由「不壞信→無疑→決了」漸次升級。終以「量器與法水」收束：三乘同飲一味空性，隨心量大小證不同果位，般若不是大乘專利，而是三乘聖者共依之母。</p></div></div>
+<script id="wy-c57p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c57p2Btn"),BOX=document.getElementById("c57p2Box"),MODAL=document.getElementById("c57p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c57p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C57P2:END-->
 </body>
 </html>
